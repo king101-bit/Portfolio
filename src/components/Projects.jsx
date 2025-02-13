@@ -20,9 +20,9 @@ const Projects = () => {
       link: "https://portfolio-king101bits-projects.vercel.app/",
     },
     {
-title: "University System",
-description: "Experience the future of student data management! University System, tailored for the Nigerian university model",
-link: "https://github.com/king101-bit/University_system"
+      title: "University System",
+      description: "Experience the future of student data management! University System, tailored for the Nigerian university model",
+      link: "https://github.com/king101-bit/University_system"
     },
   ];
 
