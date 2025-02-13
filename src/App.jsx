@@ -1,24 +1,23 @@
-import React from "react";
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import Header from "./Components/Header.jsx";
-import Skillset from "./Components/Skillset.jsx";
-import Projects from "./Components/Projects.jsx";
-import Contact from "./Components/Contact.jsx";
-import { Analytics } from "@vercel/analytics/react";
+import Hero from './components/Hero'
+import './App.css'
+import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import ContactMe from './components/ContactMe'
 
 function App() {
+
   return (
     <>
-      <Header />
-      <Skillset />
-      <Projects />
-      <Contact />
-      <Analytics />
+        <h1 className="">
+    <Hero />
+    <AboutMe />
+    <Projects />
+    <Skills />
+    <ContactMe />
+  </h1>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
