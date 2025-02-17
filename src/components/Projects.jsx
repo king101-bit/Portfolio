@@ -1,6 +1,5 @@
 import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
-import { link, title } from "framer-motion/client";
 
 const Projects = () => {
   const projects = [
@@ -27,7 +26,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-16 px-6 bg-gray-100">
+    <section className="py-16 px-6 bg-gray-100" id="projects">
       <h2 className="text-3xl font-bold text-center mb-8">My Projects</h2>
 
       {/* Grid Container */}
